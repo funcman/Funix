@@ -6,10 +6,18 @@ This is a mini and Multiboot Specification compliant kernel.
 
 ## How to build
 
-Must be on Linux, like Ubuntu:
+On Linux, like Ubuntu:
 
 ```
 sudo apt-get install build-essential nasm qemu
+```
+
+On Mac OS X:
+
+```
+xcode-select --install
+brew tap funcman/custom-formulas
+brew install i386-elf-binutils nasm qemu
 ```
 
 Build:
