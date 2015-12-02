@@ -63,6 +63,6 @@ void fk_tmp_println(char const* str) {
 
 void fk_entry() {
     fk_tmp_cls();
-    fk_tmp_println("Funix Kernel v0.0.1");
+    fk_tmp_println(" _____\n|   __| _ _  ___ .?. _ _\n|   __|| | ||   || ||_\'_|\n|__|   |___||_|_||_||_,_|  v0.0.1");
 }
 
